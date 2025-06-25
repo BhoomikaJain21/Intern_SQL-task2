@@ -24,6 +24,9 @@ VALUES (3, 'Kritika');
 INSERT INTO Employees (id, name, age)
 VALUES (4, 'Bhavya Verma', NULL);
 
+-- Switch to unsafe mode
+SET SQL_SAFE_UPDATES = 0;
+
 -- UPDATE specific row
 UPDATE Employees
 SET salary = 70000
